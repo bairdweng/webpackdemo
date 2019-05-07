@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const greeter = __webpack_require__(/*! ./test.js */ \"./app/test.js\");\ndocument.querySelector(\"#root\").appendChild(greeter());\n\n//# sourceURL=webpack:///./app/main.js?");
+eval("const greeter = __webpack_require__(/*! ./test.js */ \"./app/test.js\");\ndocument.querySelector(\"#root\").appendChild(greeter());//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvbWFpbi5qcz9mMTYxIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQixtQkFBTyxDQUFDLGdDQUFXO0FBQ25DIiwiZmlsZSI6Ii4vYXBwL21haW4uanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBncmVldGVyID0gcmVxdWlyZSgnLi90ZXN0LmpzJyk7XG5kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiI3Jvb3RcIikuYXBwZW5kQ2hpbGQoZ3JlZXRlcigpKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./app/main.js\n");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("const greeter = __webpack_require__(/*! ./test.js */ \"./app/test.js\");\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = function() {\n  var greet = document.createElement('div');\n  greet.textContent = \"Hi there and greetings!\";\n  return greet;\n};\n\n//# sourceURL=webpack:///./app/test.js?");
+eval("module.exports = function() {\n  var greet = document.createElement('div');\n  greet.textContent = \"Hi there and greetings!\";\n  return greet;\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9hcHAvdGVzdC5qcz8wMzE4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoiLi9hcHAvdGVzdC5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24oKSB7XG4gIHZhciBncmVldCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpO1xuICBncmVldC50ZXh0Q29udGVudCA9IFwiSGkgdGhlcmUgYW5kIGdyZWV0aW5ncyFcIjtcbiAgcmV0dXJuIGdyZWV0O1xufTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./app/test.js\n");
 
 /***/ })
 

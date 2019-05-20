@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 
 const path = require('path')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
@@ -24,11 +25,27 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
   ],
+  resolve: {
+    extensions: ['.js', '.vue', '.json', '.ts', '.tsx'],
+    // alias: {
+    //   '@': resolve('src'),
+    // },
+  },
   module: {
     rules: [
       {
         test: /\.ts$/,
-        use: 'ts-loader',
+        exclude: /node_modules/,
+        enforce: 'pre',
+        loader: 'tslint-loader',
+      },
+      {
+        test: /\.tsx?$/,
+        loader: 'ts-loader',
+        // exclude: /node_modules/,
+        options: {
+          appendTsSuffixTo: [/\.vue$/],
+        },
       },
       {
         test: /.js$/,
@@ -69,6 +86,7 @@ module.exports = {
         test: /\.ejs$/,
         use: 'ejs-loader',
       },
+
     ],
   },
 }

@@ -19,14 +19,8 @@ module.exports = {
   devServer: {
     contentBase: `${__dirname}`,
     compress: false,
-<<<<<<< HEAD
     host:"127.0.0.1", 
     port: 8900
-  }
-}
-=======
-    host: '127.0.0.1',
-    port: 8200,
   },
   plugins: [
     new VueLoaderPlugin(),
@@ -96,4 +90,3 @@ module.exports = {
     ],
   },
 }
->>>>>>> 87d1e9efbd13f51b2d419ed9c251de17f48888c0

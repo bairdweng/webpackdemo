@@ -40,7 +40,7 @@ module.exports = {
         loader: 'tslint-loader',
       },
       {
-        test: /\.ts?$/,
+        test: /\.tsx?$/,
         loader: 'ts-loader',
         exclude: /node_modules/,
         options: {

@@ -19,8 +19,8 @@ module.exports = {
   devServer: {
     contentBase: `${__dirname}`,
     compress: false,
-    host: '127.0.0.1',
-    port: 8200,
+    host:"127.0.0.1", 
+    port: 8900
   },
   plugins: [
     new VueLoaderPlugin(),
@@ -81,11 +81,11 @@ module.exports = {
           },
         ],
       },
-      {
-      // 对模版文件使用loader
-        test: /\.ejs$/,
-        use: 'ejs-loader',
-      },
+      // {
+      // // 对模版文件使用loader
+      //   test: /\.ejs$/,
+      //   use: 'ejs-loader',
+      // },
 
     ],
   },

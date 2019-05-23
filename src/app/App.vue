@@ -9,7 +9,11 @@ import { UserInfo } from '../models/userinfo'
 
 export default class App extends Vue {
     // 初始化数据
+<<<<<<< HEAD
     msg = 1231231231
+=======
+    // msg = 1231231231
+>>>>>>> 3de2c9286d308a3e6e9dee40ebf2630955bf48a0
     // 声明周期钩子
     mounted() {
       let isDone: boolean = false
@@ -17,7 +21,6 @@ export default class App extends Vue {
       const userInfo = new UserInfo('121')
       userInfo.fistName = '12'
       userInfo.lastName = '2'
-      console.log(`==============${this.msg}${isDone}`)
       console.log(`我草你大爷的哦${userInfo.fistName}`)
     }
     private onClickLeft() {

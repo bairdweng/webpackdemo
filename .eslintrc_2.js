@@ -14,7 +14,7 @@ module.exports = {
   plugins: ["html"],
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: "module"
+    sourceType: "module",
   },
   rules: {
     "linebreak-style": 0,

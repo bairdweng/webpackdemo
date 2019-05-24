@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
   "defaultSeverity": "warning",
   "extends": [
     "tslint:recommended"
   ],
-=======
-  "extends": "tslint-config-standard",
-  "globals": {
-    "require": true
-  },
->>>>>>> 3de2c9286d308a3e6e9dee40ebf2630955bf48a0
   "rules": {
     "no-consecutive-blank-lines": false
   }
